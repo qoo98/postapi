@@ -1,0 +1,15 @@
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/qoo98/.rbenv/versions/3.2.2/bin/ruby -I /Users/qoo98/.rbenv/versions/3.2.2/lib/ruby/site_ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-aqdc75 sitelibdir\=./.gem.20230713-29132-aqdc75 clean
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-aqdc75 sitelibdir\=./.gem.20230713-29132-aqdc75
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-aqdc75 sitelibdir\=./.gem.20230713-29132-aqdc75 install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20230713-29132-aqdc75

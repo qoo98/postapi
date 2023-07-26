@@ -1,0 +1,16 @@
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+/Users/qoo98/.rbenv/versions/3.2.2/bin/ruby -I /Users/qoo98/.rbenv/versions/3.2.2/lib/ruby/site_ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-miw1zq sitelibdir\=./.gem.20230713-29132-miw1zq clean
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-miw1zq sitelibdir\=./.gem.20230713-29132-miw1zq
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-miw1zq sitelibdir\=./.gem.20230713-29132-miw1zq install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20230713-29132-miw1zq/debug

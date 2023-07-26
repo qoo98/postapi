@@ -1,0 +1,57 @@
+I, [2023-07-13T10:01:34.932370 #1]  INFO -- : [9533544f-415e-4d4a-bce0-ee9cc1c28a0c] Started GET "/" for 172.26.0.1 at 2023-07-13 10:01:34 +0000
+F, [2023-07-13T10:01:34.935168 #1] FATAL -- : [9533544f-415e-4d4a-bce0-ee9cc1c28a0c]   
+[9533544f-415e-4d4a-bce0-ee9cc1c28a0c] ActionController::RoutingError (No route matches [GET] "/"):
+[9533544f-415e-4d4a-bce0-ee9cc1c28a0c]   
+I, [2023-07-13T10:01:41.105854 #1]  INFO -- : [14a9c36b-f822-496d-a5d9-811f485050e9] Started GET "/search/6100314" for 172.26.0.1 at 2023-07-13 10:01:41 +0000
+I, [2023-07-13T10:01:41.135310 #1]  INFO -- : [14a9c36b-f822-496d-a5d9-811f485050e9] Processing by SearchController#postal_code as HTML
+I, [2023-07-13T10:01:41.138177 #1]  INFO -- : [14a9c36b-f822-496d-a5d9-811f485050e9]   Parameters: {"postal_code"=>"6100314"}
+I, [2023-07-13T10:01:41.164628 #1]  INFO -- : [14a9c36b-f822-496d-a5d9-811f485050e9] Completed 500 Internal Server Error in 25ms (Allocations: 1447)
+F, [2023-07-13T10:01:41.165481 #1] FATAL -- : [14a9c36b-f822-496d-a5d9-811f485050e9]   
+[14a9c36b-f822-496d-a5d9-811f485050e9] ActiveRecord::ConnectionNotEstablished (connection to server at "172.26.0.2", port 5432 failed: fe_sendauth: no password supplied
+):
+[14a9c36b-f822-496d-a5d9-811f485050e9]   
+[14a9c36b-f822-496d-a5d9-811f485050e9] app/controllers/search_controller.rb:5:in `postal_code'
+I, [2023-07-13T10:01:43.329640 #1]  INFO -- : [5c5addce-70a9-4d37-93c2-f4894fb0c3d5] Started GET "/search/6100314" for 172.26.0.1 at 2023-07-13 10:01:43 +0000
+I, [2023-07-13T10:01:43.333262 #1]  INFO -- : [5c5addce-70a9-4d37-93c2-f4894fb0c3d5] Processing by SearchController#postal_code as HTML
+I, [2023-07-13T10:01:43.335448 #1]  INFO -- : [5c5addce-70a9-4d37-93c2-f4894fb0c3d5]   Parameters: {"postal_code"=>"6100314"}
+I, [2023-07-13T10:01:43.354706 #1]  INFO -- : [5c5addce-70a9-4d37-93c2-f4894fb0c3d5] Completed 500 Internal Server Error in 15ms (Allocations: 1093)
+F, [2023-07-13T10:01:43.357350 #1] FATAL -- : [5c5addce-70a9-4d37-93c2-f4894fb0c3d5]   
+[5c5addce-70a9-4d37-93c2-f4894fb0c3d5] ActiveRecord::ConnectionNotEstablished (connection to server at "172.26.0.2", port 5432 failed: fe_sendauth: no password supplied
+):
+[5c5addce-70a9-4d37-93c2-f4894fb0c3d5]   
+[5c5addce-70a9-4d37-93c2-f4894fb0c3d5] app/controllers/search_controller.rb:5:in `postal_code'
+I, [2023-07-13T10:02:39.282093 #1]  INFO -- : [28fa6531-d82f-403b-960c-439ce4a311b9] Started GET "/" for 172.26.0.1 at 2023-07-13 10:02:39 +0000
+F, [2023-07-13T10:02:39.283749 #1] FATAL -- : [28fa6531-d82f-403b-960c-439ce4a311b9]   
+[28fa6531-d82f-403b-960c-439ce4a311b9] ActionController::RoutingError (No route matches [GET] "/"):
+[28fa6531-d82f-403b-960c-439ce4a311b9]   
+I, [2023-07-13T10:02:48.683533 #1]  INFO -- : [2883ee3d-0f6c-4d3a-8a6e-32a5dab87777] Started GET "/search/3990033" for 172.26.0.1 at 2023-07-13 10:02:48 +0000
+I, [2023-07-13T10:02:48.698916 #1]  INFO -- : [2883ee3d-0f6c-4d3a-8a6e-32a5dab87777] Processing by SearchController#postal_code as HTML
+I, [2023-07-13T10:02:48.700697 #1]  INFO -- : [2883ee3d-0f6c-4d3a-8a6e-32a5dab87777]   Parameters: {"postal_code"=>"3990033"}
+I, [2023-07-13T10:02:48.727153 #1]  INFO -- : [2883ee3d-0f6c-4d3a-8a6e-32a5dab87777] Completed 500 Internal Server Error in 25ms (Allocations: 1448)
+F, [2023-07-13T10:02:48.729829 #1] FATAL -- : [2883ee3d-0f6c-4d3a-8a6e-32a5dab87777]   
+[2883ee3d-0f6c-4d3a-8a6e-32a5dab87777] ActiveRecord::ConnectionNotEstablished (connection to server at "172.26.0.2", port 5432 failed: fe_sendauth: no password supplied
+):
+[2883ee3d-0f6c-4d3a-8a6e-32a5dab87777]   
+[2883ee3d-0f6c-4d3a-8a6e-32a5dab87777] app/controllers/search_controller.rb:5:in `postal_code'
+I, [2023-07-13T10:09:18.512223 #1]  INFO -- : [1b8f7919-80c9-4e12-9c79-efc32290421d] Started GET "/search/3990033" for 172.26.0.1 at 2023-07-13 10:09:18 +0000
+I, [2023-07-13T10:09:18.531798 #1]  INFO -- : [1b8f7919-80c9-4e12-9c79-efc32290421d] Processing by SearchController#postal_code as HTML
+I, [2023-07-13T10:09:18.533525 #1]  INFO -- : [1b8f7919-80c9-4e12-9c79-efc32290421d]   Parameters: {"postal_code"=>"3990033"}
+I, [2023-07-13T10:09:18.567085 #1]  INFO -- : [1b8f7919-80c9-4e12-9c79-efc32290421d] Completed 500 Internal Server Error in 32ms (Allocations: 1092)
+F, [2023-07-13T10:09:18.573452 #1] FATAL -- : [1b8f7919-80c9-4e12-9c79-efc32290421d]   
+[1b8f7919-80c9-4e12-9c79-efc32290421d] ActiveRecord::ConnectionNotEstablished (connection to server at "172.26.0.2", port 5432 failed: fe_sendauth: no password supplied
+):
+[1b8f7919-80c9-4e12-9c79-efc32290421d]   
+[1b8f7919-80c9-4e12-9c79-efc32290421d] app/controllers/search_controller.rb:5:in `postal_code'
+I, [2023-07-13T11:38:12.558419 #1]  INFO -- : [3eb7b030-8c87-458a-8f73-dfb674c33ad7] Started GET "/" for 172.26.0.1 at 2023-07-13 11:38:12 +0000
+F, [2023-07-13T11:38:12.561544 #1] FATAL -- : [3eb7b030-8c87-458a-8f73-dfb674c33ad7]   
+[3eb7b030-8c87-458a-8f73-dfb674c33ad7] ActionController::RoutingError (No route matches [GET] "/"):
+[3eb7b030-8c87-458a-8f73-dfb674c33ad7]   
+I, [2023-07-13T11:38:30.702990 #1]  INFO -- : [c44981c1-d28b-4bd0-966f-c23cb5923bd3] Started GET "/search/3990033" for 172.26.0.1 at 2023-07-13 11:38:30 +0000
+I, [2023-07-13T11:38:30.723141 #1]  INFO -- : [c44981c1-d28b-4bd0-966f-c23cb5923bd3] Processing by SearchController#postal_code as HTML
+I, [2023-07-13T11:38:30.724590 #1]  INFO -- : [c44981c1-d28b-4bd0-966f-c23cb5923bd3]   Parameters: {"postal_code"=>"3990033"}
+I, [2023-07-13T11:38:30.751486 #1]  INFO -- : [c44981c1-d28b-4bd0-966f-c23cb5923bd3] Completed 500 Internal Server Error in 26ms (Allocations: 1447)
+F, [2023-07-13T11:38:30.753298 #1] FATAL -- : [c44981c1-d28b-4bd0-966f-c23cb5923bd3]   
+[c44981c1-d28b-4bd0-966f-c23cb5923bd3] ActiveRecord::ConnectionNotEstablished (connection to server at "172.26.0.2", port 5432 failed: fe_sendauth: no password supplied
+):
+[c44981c1-d28b-4bd0-966f-c23cb5923bd3]   
+[c44981c1-d28b-4bd0-966f-c23cb5923bd3] app/controllers/search_controller.rb:5:in `postal_code'

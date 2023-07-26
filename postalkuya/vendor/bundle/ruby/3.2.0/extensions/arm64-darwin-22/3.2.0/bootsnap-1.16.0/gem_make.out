@@ -1,0 +1,15 @@
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/qoo98/.rbenv/versions/3.2.2/bin/ruby -I /Users/qoo98/.rbenv/versions/3.2.2/lib/ruby/site_ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-buujmt sitelibdir\=./.gem.20230713-29132-buujmt clean
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-buujmt sitelibdir\=./.gem.20230713-29132-buujmt
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/qoo98/rails_board/postalkuya/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230713-29132-buujmt sitelibdir\=./.gem.20230713-29132-buujmt install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20230713-29132-buujmt/bootsnap

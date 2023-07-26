@@ -1,0 +1,12 @@
+<%= form_with url:root_path do |f| %>
+  <%= f.text_field :postal_code, size:7 %>
+  <p>例:4620003(半角数字)</p>
+  <p class="search-postal-code">郵便番号から自動入力</p> #文字をクリックしたら住所を自動入力
+  <p class="search-postal-code-error"></p>
+
+  <%= f.text_field :address, size:60 %>
+
+  <%= f.submit %>
+<% end %>
+
+<%= javascript_pack_tag 'search' %>
